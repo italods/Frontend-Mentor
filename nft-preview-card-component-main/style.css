@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --main-BG: hsl(217, 54%, 11%);
+  --card-BG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body{
+  font-family: "Outfit", sans-serif;
+  background: var(--main-BG);
+  color: var(--Soft-blue);
+}
+
+.card{
+  height: 375px;
+  width: 250px;
+  background: red;
+}
+
+.card h3{
+  color: var(--White);
+}
+
+.price {
+  color: var(--Cyan);
+}
+.data{
+  color: var(--Soft-blue);
+}
+
+.profile span{
+  color: var(--White);
+}
