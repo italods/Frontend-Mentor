@@ -9,6 +9,12 @@
   --White: hsl(0, 0%, 100%);
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
   font-family: "Outfit", sans-serif;
   background: var(--main-BG);
@@ -16,22 +22,87 @@ body{
 }
 
 .card{
-  height: 375px;
-  width: 250px;
-  background: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 300px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 20px;
+  background: var(--card-BG);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .logo{
+  Width: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.card .logo:hover{
+  background: var(--Cyan);
 }
 
 .card h3{
   color: var(--White);
+  font-weight: 400;
+  cursor: pointer;
+}
+.card h3:hover{
+  color: var(--Cyan);
+}
+.card p {
+  font-weight: 300;
+}
+
+.details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.details img{
+  margin-right: 5px;
 }
 
 .price {
+  display: flex;
   color: var(--Cyan);
 }
+
 .data{
-  color: var(--Soft-blue);
+  display: flex;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid var(--Soft-blue);
+}
+
+.profile .avatar{
+  width: 10%;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile p{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .profile span{
+  margin-left: 5px;
   color: var(--White);
+  cursor: pointer;
+}
+
+.profile span:hover{
+  color: var(--Cyan);
 }
