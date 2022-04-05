@@ -22,14 +22,13 @@ body{
 .card{
   width: 350px;
   height: 500px;
-  padding: 20px;
+  padding: 0 40px 40px;
 
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #fff;
-;
   
   display: flex;
   flex-direction: column;
@@ -40,7 +39,8 @@ body{
 }
 
 .card .banner-hero{
-  width: 100%;
+  width: 350px;
+  border-radius: 15px 15px 0 0;
 }
 
 .card h3{
@@ -65,17 +65,19 @@ body{
 
 .card .payment{
   width: 100%;
-  padding: 10px;
+  padding: 10px 0;
   border-radius: 10px;
-  border: none;
+
   background: var(--Bright-blue);
   color: #fff;
   font-weight: 500;
-  letter-spacing: 0.1px
+  letter-spacing: 0.1px;
+  cursor: pointer;
 }
 
 .card a{
   text-decoration: none;
   color: var(--Desaturated-blue);
   font-size: 15px;
+  
 }
