@@ -13,3 +13,38 @@
   --Desaturated-blue: hsl(224, 23%, 55%);
   --Dark-blue: hsl(223, 47%, 23%);
 }
+
+body{
+  background: var(--Pale-blue);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.card{
+  width: 350px;
+  height: 500px;
+  padding: 20px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  display: flex;
+  flex-direction: column;
+  background: var(--Very-pale-blue);
+  border-radius: 15px;
+
+  align-items: center;
+}
+
+.card .banner-hero{
+  width: 100%;
+}
+
+
+
+.card p{
+  font-size: 14px;
+  color: var(--Desaturated-blue);
+  text-align: center;
+}
