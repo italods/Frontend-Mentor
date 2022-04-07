@@ -13,5 +13,23 @@
 body{
   font-family: 'Lexend Deca', sans-serif;
   background: var(--Very-dark-blue);
-  color:hsl(0, 0%, 100%)
+  color:hsl(0, 0%, 100%);
+}
+
+.container{
+  color: white;
+  background: var(--Dark-desaturated-blue);
+  width: 1080px;
+
+  display: flex;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.container .text span{
+  color: var(--Soft-violet);
 }
