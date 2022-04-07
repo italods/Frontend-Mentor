@@ -15,6 +15,7 @@
 }
 
 body{
+  /* background: url(images/pattern-background-desktop.svg) no-repeat center/cover; */
   background: var(--Pale-blue);
   font-family: 'Red Hat Display', sans-serif;
 }
@@ -83,7 +84,7 @@ body{
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.1px;
-
+  box-shadow: 15px 15px 20px rgb(210, 214, 219);
 }
 .card .payment:hover{
   background: #6d67e9;
