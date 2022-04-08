@@ -30,8 +30,12 @@ body{
 }
 
 .container .text{
-  padding: 50px;
+  padding: 65px;
   font-family: 'Inter', sans-serif;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .container .text strong{
@@ -39,12 +43,17 @@ body{
 }
 
 .details{
-  background: green;
   display: flex;
-  justify-content: space-between;
 }
 .info{
-  background: red;
+  padding-right: 50px;
+}
+.info-number{
   font-family: 'Lexend Deca', sans-serif;
-
+  font-size: 25px;
+}
+.info-text{
+  font-family: 'Lexend Deca', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
 }
