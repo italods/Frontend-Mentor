@@ -44,6 +44,7 @@ body {
 
 .container .text p {
   color: var(--White-headings);
+  line-height: 25px;
 }
 
 .details {
@@ -58,9 +59,9 @@ body {
 .info-text {
   padding-right: 50px;
   color: var(--White-headings);
-  font: 400 13px "Inter", sans-serif; /* font-weight | font-size |font-family */
+  font: 400 12px "Inter", sans-serif; /* font-weight | font-size |font-family */
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .image {
