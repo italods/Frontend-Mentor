@@ -30,6 +30,10 @@ body{
 
 }
 
+.container .text{
+  padding: 50px;
+}
+
 .container .text span{
   color: var(--Soft-violet);
 }
